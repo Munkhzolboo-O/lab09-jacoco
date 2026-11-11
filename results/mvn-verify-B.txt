@@ -27,11 +27,11 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running mn.edu.must.sqat.ScholarshipCalculatorTest
-[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.307 s -- in mn.edu.must.sqat.ScholarshipCalculatorTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 s -- in mn.edu.must.sqat.ScholarshipCalculatorTest
 [INFO] 
 [INFO] Results:
 [INFO] 
-[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] 
 [INFO] --- jar:3.5.0:jar (default-jar) @ lab09-jacoco ---
@@ -42,6 +42,6 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  6.151 s
-[INFO] Finished at: 2026-11-11T21:05:03+08:00
+[INFO] Total time:  5.366 s
+[INFO] Finished at: 2026-11-11T21:18:21+08:00
 [INFO] ------------------------------------------------------------------------

@@ -114,4 +114,24 @@ void scholarship_highGpaLowCredits_returns50() {
 
     assertEquals(50, result);
 }
+
+@Test
+void gpa_zeroElements_throwsException() {
+    ScholarshipCalculator c = new ScholarshipCalculator();
+    assertThrows(IllegalArgumentException.class,
+        () -> c.gpa(new double[]{}));
+}
+
+@Test
+void gpa_oneElement_returnsFour() {
+    ScholarshipCalculator c = new ScholarshipCalculator();
+    assertEquals(4.0, c.gpa(new double[]{95}), 0.001);
+}
+
+@Test
+void gpa_multipleElements_returnsTwoPointFive() {
+    ScholarshipCalculator c = new ScholarshipCalculator();
+    assertEquals(2.5, c.gpa(new double[]{95, 85, 75, 65}), 0.001);
+}
+
 }
